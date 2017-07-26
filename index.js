@@ -15,7 +15,7 @@ const types = require('./types.json');
  */
 function createQuestions(res) {
   const config = res.pkg.config || {};
-  const emojiConfig = config['cz-bitmoji'] || {};
+  const emojiConfig = config['cz-gitmoji'] || {};
 
   let choices = (emojiConfig.types || types).map(type => {
     return {
@@ -55,8 +55,8 @@ function createQuestions(res) {
 /**
  * Format the git commit message from given answers.
  *
- * @param {Object} answers Answers provide by `inquier.js`
- * @return {String} Formated git commit message
+ * @param {Object} answers provided by `inquier.js`
+ * @return {String} Formatted git commit message
  */
 function format(answers) {
   // build head line and limit it to 100
