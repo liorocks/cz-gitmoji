@@ -1,9 +1,9 @@
 # cz-gitmoji
 
-> Commitizen adapter formatting commit messages using emojis.
+> [Commitizen](https://github.com/commitizen/cz-cli) adapter for [gitmoji](https://gitmoji.carloscuesta.me/).
 
 
-**cz-gitmoji** allows you to easily use emojis in your commits using [commitizen].
+**cz-gitmoji** allows you to easily use emojis in your commits using [commitizen](https://github.com/commitizen/cz-cli).
 
 ```sh
 // todo
@@ -38,7 +38,7 @@ You can customize things for a project by adding a configuration section in your
 
 ### Types
 
-An [Inquirer.js] choices array:
+An [Inquirer.js](https://github.com/SBoudrias/Inquirer.js/) choices array:
 ```json
 {
   "config": {
@@ -54,6 +54,14 @@ An [Inquirer.js] choices array:
 }
 ```
 
+### Inspired by
+- [gitmoji](https://gitmoji.carloscuesta.me/)
+- [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli)
+- [commitizen](https://github.com/commitizen/cz-cli)
+- [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
+- [cz-emoji](https://github.com/ngryman/cz-emoji)
+- [emoji-cz](https://github.com/kevin940726/emoji-cz)
+
 ## Licence
 
-[The MIT License (MIT)](https://github.com/Landish/cz-gitmoji/blob/master/LICENSE).
+[The MIT License](https://github.com/Landish/cz-gitmoji/blob/master/LICENSE)
