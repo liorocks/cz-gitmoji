@@ -1,12 +1,22 @@
 {
   "name": "cz-gitmoji",
   "description": "Commitizen adapter for gitmoji.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Landish/cz-gitmoji.git"
   },
+  "keywords": [
+    "git",
+    "commit",
+    "commitizen",
+    "commitizen adapter",
+    "gitmoji",
+    "gitmoji-cli",
+    "emoji",
+    "emojis"
+  ],
   "author": "Lado Lomidze <lado.lomidze@gmail.com>",
   "license": "MIT",
   "bugs": {

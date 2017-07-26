@@ -1,6 +1,4 @@
-# cz-gitmoji
-
-> [Commitizen](https://github.com/commitizen/cz-cli) adapter for [gitmoji](https://gitmoji.carloscuesta.me/).
+<h1 align="center">cz-gitmoji</h1>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/cz-gitmoji"><img src="https://img.shields.io/npm/dt/cz-gitmoji.svg" alt="NPM Downloads" /></a>
@@ -10,7 +8,7 @@
 <a href="https://github.com/Landish/cz-gitmoji/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Landish/cz-gitmoji.svg" alt="License - MIT" /></a>
 </p>
 
-## 
+> [Commitizen](https://github.com/commitizen/cz-cli) adapter for [gitmoji](https://gitmoji.carloscuesta.me/).
 
 **cz-gitmoji** allows you to easily use gitmojis in your commits using [commitizen](https://github.com/commitizen/cz-cli).
 
