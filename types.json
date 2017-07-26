@@ -1,0 +1,393 @@
+[
+  {
+    "emoji": "🎨",
+    "entity": "&#x1f3a8;",
+    "code": ":art:",
+    "description": "Improving structure / format of the code.",
+    "name": "art",
+    "priority": 1
+  },
+  {
+    "emoji": "⚡️",
+    "entity": "&#x26a1;",
+    "code": ":zap:",
+    "description": "Improving performance.",
+    "name": "zap",
+    "priority": 2
+  },
+  {
+    "emoji": "🔥",
+    "entity": "&#x1f525;",
+    "code": ":fire:",
+    "description": "Removing code or files.",
+    "name": "fire",
+    "priority": 3
+  },
+  {
+    "emoji": "🐛",
+    "entity": "&#x1f41b;",
+    "code": ":bug:",
+    "description": "Fixing a bug.",
+    "name": "bug",
+    "priority": 4
+  },
+  {
+    "emoji": "🚑",
+    "entity": "&#128657;",
+    "code": ":ambulance:",
+    "description": "Critical hotfix.",
+    "name": "ambulance",
+    "priority": 5
+  },
+  {
+    "emoji": "✨",
+    "entity": "&#x2728;",
+    "code": ":sparkles:",
+    "description": "Introducing new features.",
+    "name": "sparkles",
+    "priority": 6
+  },
+  {
+    "emoji": "📝",
+    "entity": "&#x1f4dd;",
+    "code": ":memo:",
+    "description": "Writing docs.",
+    "name": "memo",
+    "priority": 7
+  },
+  {
+    "emoji": "🚀",
+    "entity": "&#x1f680;",
+    "code": ":rocket:",
+    "description": "Deploying stuff.",
+    "name": "rocket",
+    "priority": 8
+  },
+  {
+    "emoji": "💄",
+    "entity": "&#ff99cc;",
+    "code": ":lipstick:",
+    "description": "Updating the UI and style files.",
+    "name": "lipstick",
+    "priority": 9
+  },
+  {
+    "emoji": "🎉",
+    "entity": "&#127881;",
+    "code": ":tada:",
+    "description": "Initial commit.",
+    "name": "tada",
+    "priority": 10
+  },
+  {
+    "emoji": "✅",
+    "entity": "&#x2705;",
+    "code": ":white_check_mark:",
+    "description": "Adding tests.",
+    "name": "white-check-mark",
+    "priority": 11
+  },
+  {
+    "emoji": "🔒",
+    "entity": "&#x1f512;",
+    "code": ":lock:",
+    "description": "Fixing security issues.",
+    "name": "lock",
+    "priority": 12
+  },
+  {
+    "emoji": "🍎",
+    "entity": "&#x1f34e;",
+    "code": ":apple:",
+    "description": "Fixing something on macOS.",
+    "name": "apple",
+    "priority": 13
+  },
+  {
+    "emoji": "🐧",
+    "entity": "&#x1f427;",
+    "code": ":penguin:",
+    "description": "Fixing something on Linux.",
+    "name": "penguin",
+    "priority": 14
+  },
+  {
+    "emoji": "🏁",
+    "entity": "&#x1f3c1;",
+    "code": ":checkered_flag:",
+    "description": "Fixing something on Windows.",
+    "name": "checkered-flag",
+    "priority": 15
+  },
+  {
+    "emoji": "🤖",
+    "entity": "&#129302;",
+    "code": ":robot:",
+    "description": "Fixing something on Android.",
+    "name": "robot",
+    "priority": 16
+  },
+  {
+    "emoji": "🍏",
+    "entity": "&#127823;",
+    "code": ":green_apple:",
+    "description": "Fixing something on iOS.",
+    "name": "green-apple",
+    "priority": 17
+  },
+  {
+    "emoji": "🔖",
+    "entity": "&#x1f516;",
+    "code": ":bookmark:",
+    "description": "Releasing / Version tags.",
+    "name": "bookmark",
+    "priority": 18
+  },
+  {
+    "emoji": "🚨",
+    "entity": "&#x1f6a8;",
+    "code": ":rotating_light:",
+    "description": "Removing linter warnings.",
+    "name": "rotating-light",
+    "priority": 19
+  },
+  {
+    "emoji": "🚧",
+    "entity": "&#x1f6a7;",
+    "code": ":construction:",
+    "description": "Work in progress.",
+    "name": "construction",
+    "priority": 20
+  },
+  {
+    "emoji": "💚",
+    "entity": "&#x1f49a;",
+    "code": ":green_heart:",
+    "description": "Fixing CI Build.",
+    "name": "green-heart",
+    "priority": 21
+  },
+  {
+    "emoji": "⬇️",
+    "entity": "⬇️",
+    "code": ":arrow_down:",
+    "description": "Downgrading dependencies.",
+    "name": "arrow-down",
+    "priority": 22
+  },
+  {
+    "emoji": "⬆️",
+    "entity": "⬆️",
+    "code": ":arrow_up:",
+    "description": "Upgrading dependencies.",
+    "name": "arrow-up",
+    "priority": 23
+  },
+  {
+    "emoji": "👷",
+    "entity": "&#x1f477;",
+    "code": ":construction_worker:",
+    "description": "Adding CI build system.",
+    "name": "construction-worker",
+    "priority": 24
+  },
+  {
+    "emoji": "📈",
+    "code": ":chart_with_upwards_trend:",
+    "description": "Adding analytics or tracking code.",
+    "name": "chart-with-upwards-trend",
+    "priority": 25
+  },
+  {
+    "emoji": "🔨",
+    "entity": "&#128736;",
+    "code": ":hammer:",
+    "description": "Refactoring code.",
+    "name": "hammer",
+    "priority": 26
+  },
+  {
+    "emoji": "➖",
+    "entity": "&#10134;",
+    "code": ":heavy_minus_sign:",
+    "description": "Removing a dependency.",
+    "name": "heavy-minus-sign",
+    "priority": 27
+  },
+  {
+    "emoji": "🐳",
+    "entity": "&#x1f433;",
+    "code": ":whale:",
+    "description": "Work about Docker.",
+    "name": "whale",
+    "priority": 28
+  },
+  {
+    "emoji": "➕",
+    "entity": "&#10133;",
+    "code": ":heavy_plus_sign:",
+    "description": "Adding a dependency.",
+    "name": "heavy-plus-sign",
+    "priority": 29
+  },
+  {
+    "emoji": "🔧",
+    "entity": "&#x1f527;",
+    "code": ":wrench:",
+    "description": "Changing configuration files.",
+    "name": "wrench",
+    "priority": 30
+  },
+  {
+    "emoji": "🌐",
+    "entity": "&#127760;",
+    "code": ":globe_with_meridians:",
+    "description": "Internationalization and localization.",
+    "name": "globe-with-meridians",
+    "priority": 31
+  },
+  {
+    "emoji": "✏️",
+    "entity": "&#59161;",
+    "code": ":pencil2:",
+    "description": "Fixing typos.",
+    "name": "pencil",
+    "priority": 32
+  },
+  {
+    "emoji": "💩",
+    "entity": "&#58613;",
+    "code": ":hankey:",
+    "description": "Writing bad code that needs to be improved.",
+    "name": "hankey",
+    "priority": 33
+  },
+  {
+    "emoji": "⏪",
+    "entity": "&#9194;",
+    "code": ":rewind:",
+    "description": "Reverting changes.",
+    "name": "rewind",
+    "priority": 34
+  },
+  {
+    "emoji": "🔀",
+    "entity": "&#128256;",
+    "code": ":twisted_rightwards_arrows:",
+    "description": "Merging branches.",
+    "name": "twisted-rightwards-arrows",
+    "priority": 35
+  },
+  {
+    "emoji": "📦",
+    "entity": "&#1F4E6;",
+    "code": ":package:",
+    "description": "Updating compiled files or packages.",
+    "name": "package",
+    "priority": 36
+  },
+  {
+    "emoji": "👽",
+    "entity": "&#1F47D;",
+    "code": ":alien:",
+    "description": "Updating code due to external API changes.",
+    "name": "alien",
+    "priority": 37
+  },
+  {
+    "emoji": "🚚",
+    "entity": "&#1F69A;",
+    "code": ":truck:",
+    "description": "Moving or renaming files.",
+    "name": "truck",
+    "priority": 38
+  },
+  {
+    "emoji": "📄",
+    "entity": "&#1F4C4;",
+    "code": ":page_facing_up:",
+    "description": "Adding or updating license.",
+    "name": "page-facing-up",
+    "priority": 39
+  },
+  {
+    "emoji": "💥",
+    "entity": "&#x1f4a5;",
+    "code": ":boom:",
+    "description": "Introducing breaking changes.",
+    "name": "boom",
+    "priority": 40
+  },
+  {
+    "emoji": "🍱",
+    "entity": "&#1F371",
+    "code": ":bento:",
+    "description": "Adding or updating assets.",
+    "name": "bento",
+    "priority": 41
+  },
+  {
+    "emoji": "👌",
+    "entity": "&#x1f44c;",
+    "code": ":ok_hand:",
+    "description": "Updating code due to code review changes.",
+    "name": "ok-hand",
+    "priority": 42
+  },
+  {
+    "emoji": "♿️",
+    "entity": "&#9855;",
+    "code": ":wheelchair:",
+    "description": "Improving accessibility.",
+    "name": "wheelchair",
+    "priority": 43
+  },
+  {
+    "emoji": "💡",
+    "entity": "&#128161;",
+    "code": ":bulb:",
+    "description": "Documenting source code.",
+    "name": "bulb",
+    "priority": 44
+  },
+  {
+    "emoji": "🍻",
+    "entity": "&#x1f37b;",
+    "code": ":beers:",
+    "description": "Writing code drunkenly.",
+    "name": "beers",
+    "priority": 45
+  },
+  {
+    "emoji": "💬",
+    "entity": "&#128172;",
+    "code": ":speech_balloon:",
+    "description": "Updating text and literals.",
+    "name": "speech-balloon",
+    "priority": 46
+  },
+  {
+    "emoji": "🗃",
+    "entity": "&#128451;",
+    "code": ":card_file_box:",
+    "description": "Performing database related changes.",
+    "name": "card-file-box",
+    "priority": 47
+  },
+  {
+    "emoji": "🔊",
+    "entity": "&#128266;",
+    "code": ":loud_sound:",
+    "description": "Adding logs.",
+    "name": "loud-sound",
+    "priority": 48
+  },
+  {
+    "emoji": "🔇",
+    "entity": "&#128263;",
+    "code": ":mute:",
+    "description": "Removing logs.",
+    "name": "mute",
+    "priority": 49
+  }
+]

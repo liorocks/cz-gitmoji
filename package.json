@@ -1,0 +1,19 @@
+{
+  "name": "cz-gitmoji",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": {},
+  "author": "Lado Lomidze <lado.lomidze@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "pretty": "prettier \"*.{js,json}\" --single-quote --write"
+  },
+  "devDependencies": {
+    "prettier": "^1.5.3"
+  },
+  "dependencies": {
+    "cli-truncate": "^1.1.0",
+    "read-pkg-up": "^2.0.0",
+    "wrap-ansi": "^3.0.1"
+  }
+}
