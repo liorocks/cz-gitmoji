@@ -1,7 +1,7 @@
 {
   "name": "cz-gitmoji",
   "description": "Commitizen adapter for gitmoji.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "main": "index.js",
   "repository": {
     "type": "git",
