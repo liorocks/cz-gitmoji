@@ -37,7 +37,7 @@
   🐳  - :whale: - Work about Docker.    
   ➕  - :heavy_plus_sign: - Adding a dependency.
   🔧  - :wrench: - Changing configuration files.
-   🌐  - :globe_with_meridians: - Internationalization and localization.
+  🌐  - :globe_with_meridians: - Internationalization and localization.
   ✏️  - :pencil2: - Fixing typos.
   💩  - :hankey: - Writing bad code that needs to be improved.
   ⏪  - :rewind: - Reverting changes.
