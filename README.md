@@ -2,6 +2,15 @@
 
 > [Commitizen](https://github.com/commitizen/cz-cli) adapter for [gitmoji](https://gitmoji.carloscuesta.me/).
 
+<p align="center">
+<a href="https://www.npmjs.com/package/cz-gitmoji"><img src="https://img.shields.io/npm/dt/cz-gitmoji.svg" alt="NPM Downloads" /></a>
+<a href="https://www.npmjs.com/package/cz-gitmoji"><img src="https://img.shields.io/npm/v/cz-gitmoji.svg" alt="Package Version" /></a>
+<a href="https://github.com/Landish/cz-gitmoji/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome" /></a>
+<a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg" alt="styled with prettier" /></a>
+<a href="https://github.com/Landish/cz-gitmoji/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Landish/cz-gitmoji.svg" alt="License - MIT" /></a>
+</p>
+
+## 
 
 **cz-gitmoji** allows you to easily use gitmojis in your commits using [commitizen](https://github.com/commitizen/cz-cli).
 
@@ -61,11 +70,15 @@
 ## Install
 
 ```bash
-npm install --global cz-gitmoji
+$ npm install --global cz-gitmoji
+```
 
-# set as default adapter for your projects
+## Set Globally
+
+```bash
 echo '{ "path": "cz-gitmoji" }' > ~/.czrc
 ```
+This will set as default adapter for all your projects.
 
 ## Usage
 
@@ -75,7 +88,7 @@ $ git cz
 
 ## Customize
 
-You can customize things for a project by adding a configuration section in your `package.json`:
+You can customize types for per project by adding a configuration section in your `package.json`:
 
 ```json
 {
@@ -85,9 +98,7 @@ You can customize things for a project by adding a configuration section in your
 }
 ```
 
-### Types
-
-An [Inquirer.js](https://github.com/SBoudrias/Inquirer.js/) choices array:
+For example: 
 ```json
 {
   "config": {
