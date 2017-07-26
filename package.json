@@ -2,9 +2,16 @@
   "name": "cz-gitmoji",
   "version": "0.0.1",
   "main": "index.js",
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Landish/cz-gitmoji.git"
+  },
   "author": "Lado Lomidze <lado.lomidze@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Landish/cz-gitmoji/issues"
+  },
+  "homepage": "https://github.com/Landish/cz-gitmoji#readme",
   "scripts": {
     "pretty": "prettier \"*.{js,json}\" --single-quote --write"
   },
