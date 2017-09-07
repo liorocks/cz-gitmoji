@@ -1,0 +1,97 @@
+{
+  "name": "Landish/cz-gitmoji",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "master",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/Landish/cz-gitmoji",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/cz-gitmoji",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "cz-gitmoji",
+      "subhead": "🔬😜 Commitizen adapter for gitmoji.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "cz-gitmoji: 🔬😜 Commitizen adapter for gitmoji.",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "Landish",
+          "repo": "cz-gitmoji"
+        }
+      ],
+      "text": "v0.0.7"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n\n<p>\n<a href=\"https://www.npmjs.com/package/cz-gitmoji\"><img src=\"https://img.shields.io/npm/dt/cz-gitmoji.svg\"></a>\n<a href=\"https://www.npmjs.com/package/cz-gitmoji\"><img src=\"https://img.shields.io/npm/v/cz-gitmoji.svg\"></a>\n<a href=\"https://github.com/Landish/cz-gitmoji/pulls\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg\"></a>\n<a href=\"https://github.com/prettier/prettier\"><img src=\"https://img.shields.io/badge/styled_with-prettier-ff69b4.svg\"></a>\n<a href=\"https://github.com/Landish/cz-gitmoji/blob/master/LICENSE\"><img src=\"https://img.shields.io/github/license/Landish/cz-gitmoji.svg\"></a>\n</p>\n\n<blockquote>\n<p><a href=\"https://github.com/commitizen/cz-cli\">Commitizen</a> adapter for <a href=\"https://gitmoji.carloscuesta.me/\">gitmoji</a>.</p>\n</blockquote>\n<p><strong>cz-gitmoji</strong> allows you to easily use gitmojis in your commits using <a href=\"https://github.com/commitizen/cz-cli\">commitizen</a>.</p>\n<pre>? Select the <span class=\"hljs-built_in\">type</span> of change you<span class=\"hljs-string\">&apos;re committing:\n  &#x1F3A8;  - :art: - Improving structure / format of the code.\n  &#x26A1;&#xFE0F;  - :zap: - Improving performance.\n  &#x1F525;  - :fire: - Removing code or files.\n&#x276F; &#x1F41B;  - :bug: - Fixing a bug.\n  &#x1F691;  - :ambulance: - Critical hotfix.\n  &#x2728;  - :sparkles: - Introducing new features.\n  &#x1F4DD;  - :memo: - Writing docs.\n  &#x1F680;  - :rocket: - Deploying stuff.\n  &#x1F484;  - :lipstick: - Updating the UI and style files.\n  &#x1F389;  - :tada: - Initial commit.\n  &#x2705;  - :white_check_mark: - Adding tests.\n  &#x1F512;  - :lock: - Fixing security issues.\n  &#x1F34E;  - :apple: - Fixing something on macOS.\n  &#x1F427;  - :penguin: - Fixing something on Linux.\n  &#x1F3C1;  - :checkered_flag: - Fixing something on Windows.\n  &#x1F916;  - :robot: - Fixing something on Android.\n  &#x1F34F;  - :green_apple: - Fixing something on iOS.\n  &#x1F516;  - :bookmark: - Releasing / Version tags.\n  &#x1F6A8;  - :rotating_light: - Removing linter warnings.\n  &#x1F6A7;  - :construction: - Work in progress.\n  &#x1F49A;  - :green_heart: - Fixing CI Build.  \n  &#x2B07;&#xFE0F;  - :arrow_down: - Downgrading dependencies.\n  &#x2B06;&#xFE0F;  - :arrow_up: - Upgrading dependencies.\n  &#x1F477;  - :construction_worker: - Adding CI build system.\n  &#x1F4C8;  - :chart_with_upwards_trend: - Adding analytics or tracking code.\n  &#x1F528;  - :hammer: - Refactoring code.\n  &#x2796;  - :heavy_minus_sign: - Removing a dependency.\n  &#x1F433;  - :whale: - Work about Docker.    \n  &#x2795;  - :heavy_plus_sign: - Adding a dependency.\n  &#x1F527;  - :wrench: - Changing configuration files.\n  &#x1F310;  - :globe_with_meridians: - Internationalization and localization.\n  &#x270F;&#xFE0F;  - :pencil2: - Fixing typos.\n  &#x1F4A9;  - :hankey: - Writing bad code that needs to be improved.\n  &#x23EA;  - :rewind: - Reverting changes.\n  &#x1F500;  - :twisted_rightwards_arrows: - Merging branches.\n  &#x1F4E6;  - :package: - Updating compiled files or packages.\n  &#x1F47D;  - :alien: - Updating code due to external API changes.\n  &#x1F69A;  - :truck: - Moving or renaming files.\n  &#x1F4C4;  - :page_facing_up: - Adding or updating license.\n  &#x1F4A5;  - :boom: - Introducing breaking changes.\n  &#x1F371;  - :bento: - Adding or updating assets.\n  &#x1F44C;  - :ok_hand: - Updating code due to code review changes.\n  &#x267F;&#xFE0F;  - :wheelchair: - Improving accessibility.\n  &#x1F4A1;  - :bulb: - Documenting source code.\n  &#x1F37B;  - :beers: - Writing code drunkenly.\n  &#x1F4AC;  - :speech_balloon: - Updating text and literals.\n  &#x1F5C3;  - :card_file_box: - Performing database related changes.\n  &#x1F50A;  - :loud_sound: - Adding logs.\n  &#x1F507;  - :mute: - Removing logs.</span></pre><h2>Install</h2>\n<pre>$ npm install --global cz-gitmoji</pre><h2>Set Globally</h2>\n<pre><span class=\"hljs-built_in\">echo</span> <span class=\"hljs-string\">&apos;{ &quot;path&quot;: &quot;cz-gitmoji&quot; }&apos;</span> &gt; ~/.czrc</pre><p>This will set as default adapter for all your projects.</p>\n<h2>Usage</h2>\n<pre>$ git cz</pre><h2>Customize</h2>\n<p>You can customize types for per project by adding a configuration section in your <code>package.json</code>:</p>\n<pre>{\n  <span class=\"hljs-attr\">&quot;config&quot;</span>: {\n    <span class=\"hljs-attr\">&quot;cz-gitmoji&quot;</span>: {}\n  }\n}</pre><p>For example: </p>\n<pre>{\n  <span class=\"hljs-attr\">&quot;config&quot;</span>: {\n    <span class=\"hljs-attr\">&quot;cz-gitmoji&quot;</span>: {\n      <span class=\"hljs-attr\">&quot;types&quot;</span>: [\n        {\n          <span class=\"hljs-attr\">&quot;name&quot;</span>: <span class=\"hljs-string\">&quot;bad \\t&#x1F4A9; bad code&quot;</span>,\n          <span class=\"hljs-attr\">&quot;value&quot;</span>: <span class=\"hljs-string\">&quot;:hankey:&quot;</span>\n        }\n      ]\n    }\n  }\n}</pre><h3>Inspired by</h3>\n<ul>\n<li><a href=\"https://gitmoji.carloscuesta.me/\">gitmoji</a></li>\n<li><a href=\"https://github.com/carloscuesta/gitmoji-cli\">gitmoji-cli</a></li>\n<li><a href=\"https://github.com/commitizen/cz-cli\">commitizen</a></li>\n<li><a href=\"https://github.com/commitizen/cz-conventional-changelog\">cz-conventional-changelog</a></li>\n<li><a href=\"https://github.com/ngryman/cz-emoji\">cz-emoji</a></li>\n<li><a href=\"https://github.com/kevin940726/emoji-cz\">emoji-cz</a></li>\n</ul>\n<h2>Licence</h2>\n<p><a href=\"https://github.com/Landish/cz-gitmoji/blob/master/LICENSE\">The MIT License</a></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/Landish/cz-gitmoji",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/Landish",
+          "text": "Landish"
+        }
+      ]
+    }
+  ]
+}
